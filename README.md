@@ -5,4 +5,4 @@ This is a bank of stimuli we created by blending together different male Caucasi
 
 There's also a short MATLAB script included that does an adaptive Gaussian blur to the faces (this was an attempt to control for morphing artifacts, where more blur is introduced with the more faces blended together).
 
-For permission to use the images in research (or more info on the MATLAB code), email Evan Carr at carr324@gmail.com.
+For more info on the MATLAB code and/or image permissions, email Evan Carr at carr324@gmail.com.

@@ -1,4 +1,4 @@
-# matlab-faceBlends
+# MATLAB-faceBlends
 Database of blended male faces from the Chicago Face Database, along with code for blurring images:
 
 This is a bank of stimuli we created by blending together different male Caucasian and African-American faces from the Chicago Face Database (http://faculty.chicagobooth.edu/bernd.wittenbrink/cfd/index.html).  Models are blended to 4 different levels:  1-face (no blend), 2-face, 4-face, or 8-face.

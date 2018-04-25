@@ -43,7 +43,7 @@ for faceImg = 1:2:32     % 16 different 2-face images
     faceSaveName = [char(faceIndex(1)) '-final.jpg'];
     
     faceImgBlur1 = imread(faceImgPath);
-    faceImgBlur2 = imgaussfilt(faceImgBlur1, 1.5);
+    faceImgBlur2 = imgaussfilt(faceImgBlur1, 1);
     
     % Resize the image before saving:
     [height, width, dim] = size(faceImgBlur2);
@@ -73,7 +73,7 @@ for faceImg = 1:4:32     % 8 different 4-face images
     faceSaveName = [char(faceIndex(1)) '-final.jpg'];
     
     faceImgBlur1 = imread(faceImgPath);
-    faceImgBlur2 = imgaussfilt(faceImgBlur1, 1);
+    faceImgBlur2 = imgaussfilt(faceImgBlur1, .5);
     
     % Resize the image before saving:
     [height, width, dim] = size(faceImgBlur2);
@@ -106,7 +106,7 @@ for faceImg = 1:8:32     % 4 different 8-face images
     faceSaveName = [char(faceIndex(1)) '-final.jpg'];
     
     faceImgBlur1 = imread(faceImgPath);
-    faceImgBlur2 = imgaussfilt(faceImgBlur1, .5);
+    faceImgBlur2 = imgaussfilt(faceImgBlur1, .25);
     
     % Resize the image before saving:
     [height, width, dim] = size(faceImgBlur2);
